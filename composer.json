@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/sap-product-and-engineering-filament",
+  "description": "Product and engineering Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capability815b851986c8\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "sap-product-and-engineering-filament"
+    }
+  }
+}
